@@ -67,7 +67,12 @@ class AnimeRecommender:
         recommendations = []
         for idx, score in sim_scores:
             if idx not in input_indices:
-                recommendations.append(self.df.iloc[idx]['Title'])
+                row = self.df.iloc[idx]
+                recommendations.append({
+                    "title": row['Title'],
+                    "genres": row['Genres'],
+                    "synopsis": row['Synopsis']
+                })
             if len(recommendations) == top_n:
                 break
 
