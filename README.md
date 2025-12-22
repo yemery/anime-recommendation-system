@@ -2,8 +2,6 @@
 
 A modern, AI-powered anime recommendation system that helps users discover their next favorite anime series. This full-stack application uses machine learning to provide personalized anime suggestions based on user preferences.
 
-![Anime Recommendation System](https://img.freepik.com/free-vector/anime-background-design_23-2149430438.jpg)
-
 ## ✨ Features
 
 - **Personalized Recommendations**: Get anime suggestions based on your preferences
