@@ -114,7 +114,7 @@ const RecommendationPage = () => {
   return (
     <AppLayout>
     <div className="container mx-auto px-4 py-8">
-      <div className="text-center mb-8">
+      <div className=" mb-8">
         <Title level={2} className="!mb-2">Find Your Next Favorite Anime</Title>
         <Text type="secondary" className="text-lg">Search, select, and discover.</Text>
       </div>
